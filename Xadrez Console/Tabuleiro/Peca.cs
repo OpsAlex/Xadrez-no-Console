@@ -26,10 +26,10 @@ namespace Xadrez_Console.Tabuleiro
             this.tab = tab;
         }
 
-        // public void incrementarQteMovimentos ()
-        // {
-        //    qteMovimentos++;
-        // }
+         public void incrementarQteMovimentos ()
+         {
+           qteMovimentos++;
+         }
 
         public abstract bool[,] movimentosPossiveis();
         
