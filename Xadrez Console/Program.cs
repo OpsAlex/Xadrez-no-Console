@@ -42,6 +42,8 @@ namespace Xadrez_Console
                         Console.Write("Aperte qualquer tecla para continuar! ");
                         Console.ReadLine();
                     }
+                    Console.Clear();
+                    Telas.imprimirPartida(partida);
                 }
 
             }
