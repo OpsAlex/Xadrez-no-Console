@@ -52,7 +52,7 @@ namespace Xadrez_Console
 
             foreach (Peca x in conjunto)
             {
-                Console.Write(x);
+                Console.Write(x + ", ");
             }
             Console.Write("]");
         }
@@ -107,7 +107,7 @@ namespace Xadrez_Console
         {
             string s = Console.ReadLine();
             char coluna = s[0];
-            int linha = int.Parse(s[1] + "");
+            int linha = int.Parse(s[1] + " ");
             return new PosicaoXadrez(coluna, linha);
         }
 
