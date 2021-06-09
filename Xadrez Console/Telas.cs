@@ -38,7 +38,7 @@ namespace Xadrez_Console
             Console.WriteLine("Peças Capturadas: ");
             Console.Write("Brancas: ");
             imprimirConjunto(partida.pecasCapturadas(Cor.Branca));
-            Console.Write("\nAmarelas: ");
+            Console.Write("\nPretas: ");
             ConsoleColor aux = Console.ForegroundColor;
             Console.ForegroundColor = ConsoleColor.Yellow;
             imprimirConjunto(partida.pecasCapturadas(Cor.Preta));
@@ -78,6 +78,7 @@ namespace Xadrez_Console
 
             ConsoleColor fundoOriginal = Console.BackgroundColor;
             ConsoleColor fundoAlterado = ConsoleColor.DarkGray;
+            Console.WriteLine(" ____________________");
 
             for (int i = 0; i < tab.linhas; i++)
             {
